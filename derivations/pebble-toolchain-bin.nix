@@ -12,13 +12,13 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "pebble-toolchain-bin";
-  version = "4.9.77";
+  version = "4.9.148";
 
   src =
     (rec {
       x86_64-linux = fetchzip {
         url = "https://sdk.core.store/releases/${finalAttrs.version}/toolchain-linux.tar.gz";
-        hash = "sha256-KqLo9b7jqXjcwVCKXLAEwDUuaRpLC7rAAF04b7dLJJA=";
+        # hash = "sha256-KqLo9b7jqXjcwVCKXLAEwDUuaRpLC7rAAF04b7dLJJA=";
         stripRoot = false;
       };
       x86_64-darwin = fetchzip {

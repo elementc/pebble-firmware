@@ -12,7 +12,7 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "pebble-toolchain-bin";
-  version = "4.9.148";
+  version = "4.9.127";
 
   src =
     (rec {

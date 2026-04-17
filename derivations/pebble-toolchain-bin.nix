@@ -18,7 +18,7 @@ stdenv.mkDerivation (finalAttrs: {
     (rec {
       x86_64-linux = fetchzip {
         url = "https://sdk.core.store/releases/${finalAttrs.version}/toolchain-linux.tar.gz";
-        # hash = "sha256-KqLo9b7jqXjcwVCKXLAEwDUuaRpLC7rAAF04b7dLJJA=";
+        hash = "sha256-bFcxIn94oKc01NdbFUqbpYhpaNv9WiXEwCBObnuQZgU=";
         stripRoot = false;
       };
       x86_64-darwin = fetchzip {

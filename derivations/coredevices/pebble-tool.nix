@@ -40,7 +40,7 @@ python3Packages.buildPythonPackage rec {
     owner = "coredevices";
     repo = "pebble-tool";
     tag = "v${version}";
-    #hash = "sha256-hF4G6NUXZtWG8qZ10pMd4QeIvqCjmxFcuH4a3xR1NrQ=";
+    hash = "sha256-gwp/vkCr2ZSSpkfXpTQG5saoy47KYF2pSTKYmrbLksc=";
   };
 
   nativeBuildInputs = [ makeWrapper ];

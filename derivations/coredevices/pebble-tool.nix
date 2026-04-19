@@ -58,6 +58,7 @@ python3Packages.buildPythonPackage rec {
     libpebble2
     oauth2client
     packaging
+    pillow
     progressbar2
     pyasn1
     pyasn1-modules

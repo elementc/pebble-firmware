@@ -52,6 +52,8 @@ python3Packages.buildPythonPackage rec {
     coredevices.pypkjs
     colorama
     freetype-py
+    google-auth
+    google-auth-oauthlib
     httplib2
     libpebble2
     oauth2client
